@@ -1,0 +1,95 @@
+/*============ GOOGLE FONTS ============*/
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap");
+
+/*============ VARIAVEIS CSS ============*/
+
+/*============ CORES TEMA DARK ============*/
+:root {
+  --bg-color: #1c1726;
+  --primary-color: #d71e47;
+  --secondary-color: #f1f1f1;
+  --tertiary-color: #3b3050;
+
+  --max-width: 90%;
+
+  /*========== FONT SIZE ==========*/
+
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+  --h1-font-size: 4rem;
+  --h2-font-size: 2.3rem;
+  --h3-font-size: 1.9rem;
+
+  --f1-font-size: 1rem;
+  --f2-font-size: 1.25rem;
+  --f3-font-size: 1.7rem;
+
+  --fm1-font-size: 1.3rem;
+  --fm2-font-size: 1rem;
+  --fm3-font-size: 0.9rem;
+
+  /*========== FONT WEIGHT ==========*/
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  --font-weight-900: 900;
+}
+
+/*============ CORES TEMA LIGHT ============*/
+:root .light-theme {
+  --bg-color: #cfcbeb;
+  --primary-color: #d71e47;
+  --secondary-color: #353535;
+  --tertiary-color: #938fb1;
+}
+
+/*============ VARIAVEIS CSS ============*/
+
+/*============ CONFIGURAÇÕES DEFAULT ============*/
+::selection {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+
+main {
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
+.container {
+  height: 100vh;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 10vh;
+  color: var(--primary-color);
+}

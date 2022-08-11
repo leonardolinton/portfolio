@@ -1,0 +1,106 @@
+/*============ FOOTER START ============*/
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+#footer .footer_box {
+    width: var(--max-width);
+    margin: 0 auto;
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+#footer .footer_title {
+    color: var(--secondary-color);
+}
+
+#footer .footer_title h3 {
+    text-transform: uppercase;
+    font-size: var(--f2-font-size);
+}
+
+#footer .footer_links {
+    display: flex;
+    gap: 50px;
+    font-size: var(--f1-font-size);
+    font-weight: var(--font-weight-500);
+}
+
+#footer .footer_links li a {
+    font-size: var(--f1-font-size);
+    color: var(--secondary-color);
+}
+
+#footer .footer_socials {
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+}
+
+#footer .footer_social {
+    font-size: 30px;
+    color: var(--secondary-color);
+    transition: 0.5;
+}
+
+#footer .footer_links li a:hover,
+#footer .footer_social:hover {
+    color: var(--tertiary-color);
+}
+
+#footer .footer_copy {
+    padding: 5px 0;
+    text-align: center;
+    font-size: var(--f1-font-size);
+    font-weight: var(--font-weight-700);
+    color: var(--bg-color);
+
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*============ FOOTER END ============*/
+
+/*============ FOOTER RESPONSIVIDADE ============*/
+
+@media screen and (max-width: 950px) {
+    #footer .footer_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 15px;
+    }
+
+    #footer .footer_title {
+        text-align: center;
+    }
+
+    #footer .footer_links {
+        gap: 15px;
+    }
+
+    #footer .footer_links li a {
+        font-size: var(--f1-font-size);
+    }
+
+    #footer .footer_social {
+        font-size: 35px;
+    }
+
+    #footer .footer_socials {
+        margin: 0;
+    }
+
+    #footer .footer_copy {
+        font-size: var(--fm3-font-size);
+        font-weight: var(--font-weight-700);
+    }
+}

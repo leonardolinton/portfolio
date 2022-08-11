@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio // Leonardo Linton</title>
+
+  <!--============ FAVICON ============-->
+  <link rel="icon" type="imagem/png" href="/assets/img/logo.png" />
+
+  <!--============ AOS ANIMATE SCROLL ============-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!--============ STYLE CSS ============-->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/header.css" />
+  <link rel="stylesheet" href="./assets/css/home.css" />
+  <link rel="stylesheet" href="./assets/css/sobre.css" />
+  <link rel="stylesheet" href="./assets/css/habilidades.css" />
+  <link rel="stylesheet" href="./assets/css/projetos.css" />
+  <link rel="stylesheet" href="./assets/css/contato.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
+
+  <!--============ ANIMATION CSS ============-->
+  <link rel="stylesheet" href="./assets/css/animation.css" />
+
+  <!--============ SWIPER SLIDE CSS ============-->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <!--============ MENU START ============-->
+  <header id="header">
+    <nav id="nav">
+      <a href="/index.html" id="logo"><span>LL</span></a>
+
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+
+      <ul id="menu" role="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <ion-icon id="icon" name="sunny-sharp"></ion-icon>
+    </nav>
+  </header>
+  <!--============ MENU END ============-->
+  <main>
+    <!--============ HOME START ============-->
+    <section id="home" class="container">
+      <div class="home-box">
+        <div class="home-box-txt" data-aos="fade-down" data-aos-duration="3000">
+          <span>Olá! Eu sou,</span>
+          <h1 id="typewriter">Leonardo Linton</h1>
+          <p>Desenvolvedor Front-end</p>
+          <a href="http://docs.google.com/uc?export=download&id=1eWdHBkf74h6B_dsJzk0ymnmhO8R4h64b">
+            <button class="home-btn"><span>DOWNLOAD CV</span></button>
+          </a>
+
+          <div class="home-box-thumbs">
+
+            <a href="https://github.com/leonardolinton">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            
+          </div>
+        </div>
+        <div class="home-box-img" data-aos="fade-up" data-aos-duration="3000"></div>
+      </div>
+
+      <div class="home-scroll-down">
+        <a href="#sobre">
+          <ion-icon name="chevron-down-sharp"></ion-icon>
+          <span>Scroll Down</span>
+        </a>
+      </div>
+    </section>
+    <!--============ HOME END ============-->
+
+    <!--============ SOBRE START ============-->
+
+    <section id="sobre" class="container">
+      <div class="sobre-title">
+        <h2>SOBRE MIM</h2>
+        <span>Minha Introdução</span>
+      </div>
+
+      <div class="sobre-box">
+        <div class="sobre-box-img" data-aos="fade-up" data-aos-duration="3000"></div>
+
+        <div class="sobre-box-txt" data-aos="fade-down" data-aos-duration="3000">
+          <p>
+            Meu nome é Leonardo e eu sou um apaixonado por tecnologia que
+            decidi trilhar o caminho da programação. Possuo experiência em
+            analise de sistemas, e atualmente estou focando nas tecnologias
+            voltadas ao FrontEnd.
+          </p>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!--============ SOBRE END ============-->
+
+    <!--============ HABILIDADES START ============-->
+
+    <section id="habilidades" class="container">
+      <div class="habilidades-title">
+        <h2>HABILIDADES</h2>
+        <span>Skills Atuais</span>
+      </div>
+
+      <div class="habilidades-box">
+        <div class="habilidades-box-cards" data-aos="fade-up" data-aos-duration="3000">
+          <div class="habilidades-box-card">
+            HTML
+            <img src="/assets/img/html.png" alt="card/img" />
+          </div>
+
+          <div class="habilidades-box-card">
+            CSS
+            <img src="/assets/img/css.png" alt="card/img" />
+          </div>
+
+          <div class="habilidades-box-card">
+            JAVASCRIPT
+            <img src="/assets/img/script-java.png" alt="card/img" />
+          </div>
+
+          <div class="habilidades-box-card">
+            SASS
+            <img src="/assets/img/sass.png" alt="card/img" />
+          </div>
+          
+        </div>
+
+        <div class="habilidades-box-img" data-aos="fade-down" data-aos-duration="3000"></div>
+      </div>
+    </section>
+
+    <!--============ HABILIDADES END ============-->
+
+    <!--============ PROJETOS START ============-->
+
+    <section id="projetos" class="container">
+      <div class="projetos-title">
+        <h2>PROJETOS</h2>
+        <span>Trabalhos recentes</span>
+      </div>
+
+      <div class="projetos-box" data-aos="fade-down" data-aos-duration="3000">
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <p>EM BREVE</p>
+              </div>
+              <div class="card swiper-slide">
+                <p>EM BREVE</p>
+              </div>
+              <div class="card swiper-slide">
+                <p>EM BREVE</p>
+              </div>
+              <div class="card swiper-slide">
+                <p>EM BREVE</p>
+              </div>
+              <div class="card swiper-slide">
+                <p>EM BREVE</p>
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============ PROJETOS END ============-->
+
+    <!--============ CONTATO START ============-->
+    <section id="contato" class="container">
+      <div class="contato-title">
+        <h2>CONTATO</h2>
+        <span>Envie uma mensagem</span>
+      </div>
+
+      <div class="contato-box">
+        <div class="contato-box-left" data-aos="fade-down" data-aos-duration="3000">
+          <ul class="contato-list">
+            <li>
+              <h3 class="item-title">
+                <ion-icon name="call-sharp"></ion-icon>Telefone
+              </h3>
+              <span>(21) 976-590-294</span>
+            </li>
+            <li>
+              <h3 class="item-title">
+                <ion-icon name="mail-sharp"></ion-icon>Email
+              </h3>
+              <span>leonardolinton.info@gmail.com</span>
+            </li>
+            <li>
+              <h3 class="item-title">
+                <ion-icon name="location-sharp"></ion-icon>Endereço
+              </h3>
+              <span>Rio de Janeiro, Acari 35</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contato-box-right" data-aos="fade-down" data-aos-duration="3000">
+
+          <form action="https://api.staticforms.xyz/submit" method="post" autocomplete="off" class="contact-form">
+            <div class="first-row">
+              <input type="text" name="name" placeholder="Seu nome">
+            </div>
+            <div class="second-row">
+              <input type="text" name="email" placeholder="Seu email">
+              <input type="text" name="subject" placeholder="Assunto">
+            </div>
+            <div class="third-row">
+              <textarea name="message" placeholder="Menssagem..."></textarea>
+            </div>
+            <button class="form-btn" type="submit">
+              Enviar mensagem<ion-icon name="send-sharp"></ion-icon>
+            </button>
+
+            <input type="text" name="honeypot" style="display: none;">
+            <input type="hidden" name="accessKey" value="8b569287-97f6-4540-90cb-b3e9aea868be">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#contato">
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <!--============ CONTATO END ============-->
+  </main>
+
+  <!--============ FOOTER START ============-->
+  <footer id="footer">
+    <div class="footer_box">
+      <div class="footer_title">
+        <h3>Leonardo Linton</h3>
+        <span>Frontend Developer</span>
+      </div>
+
+      <ul class="footer_links">
+        <li>
+          <a href="#sobre" class="footer_link">Sobre</a>
+        </li>
+        <li>
+          <a href="#habilidades" class="footer_link">Habilidades</a>
+        </li>
+        <li>
+          <a href="#projetos" class="footer_link">Projetos</a>
+        </li>
+        <li>
+          <a href="#contato" class="footer_link">Contato</a>
+        </li>
+      </ul>
+
+      <div class="footer_socials">
+        <a href="https://github.com/leonardolinton" class="footer_social">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="#" class="footer_social">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <p class="footer_copy">Copyright © 2022 | Criado por Leonardo Linton</p>
+  </footer>
+  <!--============ FOOTER END ============-->
+
+  <!--============ JAVASCRIPT ============-->
+  <script src="/assets/js/script.js"></script>
+
+  <!--============ ION ICONS ============-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!--============ AOS ANIMATE SCROLL ============-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--============ SWIPER JS ============-->
+  <script src="/assets/js/swiper-bundle.min.js"></script>
+  <script src="/assets/js/swiper.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+/*============ PROJETOS SECTION START ============*/
+#projetos {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#projetos .projetos-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projetos .projetos-title h2 {
+  font-size: var(--h2-font-size);
+}
+
+#projetos .projetos-title span {
+  font-size: var(--f2-font-size);
+  color: var(--secondary-color);
+}
+
+#projetos .projetos-box {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+#projetos .slide-container {
+  padding: 30px 0;
+}
+
+#projetos .slide-content {
+  height: 60vh;
+  margin: 0px 50px;
+  padding: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+#projetos .card {
+  margin: auto 0;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
+
+  transition: 0.5s;
+}
+
+#projetos .card:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+#projetos .card p {
+  font-size: var(--f3-font-size);
+  font-weight: var(--font-weight-500);
+}
+
+#projetos .swiper-navBtn {
+  color: var(--primary-color);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+#projetos .swiper-navBtn:hover {
+  opacity: 1;
+}
+
+#projetos .swiper-navBtn::before,
+#projetos .swiper-navBtn::after {
+  font-size: 50px;
+  font-weight: var(--font-weight-700);
+}
+
+#projetos .swiper-button-next {
+  right: 0;
+}
+
+#projetos .swiper-button-prev {
+  left: 0;
+}
+
+#projetos .swiper-pagination-bullet {
+  background-color: var(--primary-color);
+  border-radius: 0;
+}
+
+#projetos .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+/*============ PROJETOS SECTION END ============*/
+
+/*============ PROJETOS RESPONSIVIDADE ============*/
+
+@media screen and (max-width: 950px) {
+  #projetos .projetos-title h2 {
+    font-size: var(--fm1-font-size);
+  }
+
+  #projetos .projetos-title span {
+    font-size: var(--fm3-font-size);
+  }
+
+  #projetos .projetos-box-card span {
+    color: var(--primary-color);
+    font-weight: var(--font-weight-700);
+    font-size: var(--fm3-font-size);
+  }
+
+  #projetos .slide-content {
+    margin: 0 10px;
+  }
+
+  #projetos .swiper-navBtn {
+    display: none;
+  }
+}

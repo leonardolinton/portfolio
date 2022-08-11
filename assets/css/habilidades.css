@@ -1,0 +1,127 @@
+/*============ HABILIDADES SECTION START ============*/
+
+#habilidades {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#habilidades .habilidades-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#habilidades .habilidades-title h2 {
+  font-size: var(--h2-font-size);
+}
+
+#habilidades .habilidades-title span {
+  font-size: var(--f2-font-size);
+  color: var(--secondary-color);
+}
+
+#habilidades .habilidades-box {
+  width: 100%;
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 35px;
+}
+
+#habilidades .habilidades-box-img {
+  width: 50%;
+  height: 100%;
+
+  background-image: url(../img/hand-coding-animate.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#habilidades .habilidades-box-cards {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#habilidades .habilidades-box-card {
+  width: 15vh;
+  height: 15vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  border: solid 3px transparent;
+
+  margin: 15px;
+  padding: 10px;
+  cursor: pointer;
+
+  color: var(--secondary-color);
+  font-size: 90%;
+  font-weight: var(--font-weight-700);
+  background-color: var(--tertiary-color);
+
+  transition: 0.5s ease-in-out;
+}
+
+#habilidades .habilidades-box-card img {
+  margin: 5%;
+  width: 70%;
+}
+
+#habilidades .habilidades-box-card:hover {
+  transform: translateY(-10px);
+  color: var(--primary-color);
+  border: solid 3px var(--primary-color);
+}
+
+/*============ HABILIDADES SECTION END ============*/
+
+/*============ HABILIDADES RESPONSIVIDADE ============*/
+
+@media (max-width: 950px) {
+  #habilidades .habilidades-title h2 {
+    font-size: var(--fm1-font-size);
+  }
+
+  #habilidades .habilidades-title span {
+    font-size: var(--fm3-font-size);
+  }
+
+  #habilidades .habilidades-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  #habilidades .habilidades-box-cards {
+    max-height: 70%;
+    width: 100%;
+  }
+
+  #habilidades .habilidades-box-img {
+    height: 30%;
+    width: 100%;
+  }
+
+  #habilidades .habilidades-box-card {
+    height: 12vh;
+    width: 12vh;
+
+    font-size: 60%;
+    padding: 1%;
+    margin: 7px;
+  }
+}

@@ -1,0 +1,219 @@
+/*============ HOME SECTION START ============*/
+
+#typewriter {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-weight-900);
+  line-height: 100%;
+  margin: 25px 0px;
+}
+
+#typewriter::after {
+  content: "|";
+  color: var(--secondary-color);
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+#home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#home .home-box {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+#home .home-box-txt {
+  height: 70vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home .home-box-txt span {
+  line-height: 100%;
+  font-size: var(--f3-font-size);
+  font-weight: var(--font-weight-700);
+  color: var(--secondary-color);
+}
+
+#home .home-box-txt p {
+  line-height: 100%;
+  font-size: var(--f3-font-size);
+  font-weight: var(--font-weight-700);
+  color: var(--secondary-color);
+}
+
+#home .home-box-txt a {
+  width: 250px;
+}
+
+#home .home-btn {
+  margin-top: 25px;
+  padding: 25px 0px;
+  width: 250px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transform: skew(-25deg);
+
+  border: 2px solid var(--primary-color);
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary-color);
+  text-align: center;
+  transition: 0.3s;
+  z-index: 1;
+  color: var(--primary-color);
+}
+
+#home .home-btn::before {
+  content: "";
+  width: 0;
+  height: 500%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-color);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+#home .home-btn:hover::before {
+  width: 105%;
+}
+
+#home .home-btn span {
+  display: inline-block;
+  transform: skew(25deg);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: var(--f2-font-size);
+  font-weight: var(--font-weight-700);
+}
+
+#home .home-box-img {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  background: url(../img/coding-animate.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+#home .home-box-thumbs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#home .home-box-thumbs ion-icon {
+  font-size: 40px;
+  cursor: pointer;
+  margin-top: 25px;
+  transition: 0.5s;
+  color: var(--primary-color);
+}
+
+#home .home-box-thumbs ion-icon:hover {
+  color: var(--secondary-color);
+}
+
+#home .home-box-thumbs a {
+  width: auto;
+}
+
+#home .home-scroll-down {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .home-scroll-down a {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px;
+  gap: 2px;
+  font-size: var(--f1-font-size);
+  font-weight: var(--font-weight-500);
+
+  color: var(--secondary-color);
+}
+
+#home .home-scroll-down a ion-icon {
+  font-size: var(--f2-font-size);
+  animation: scroll-arrow 5s ease-in-out 0s infinite normal forwards;
+  color: var(--primary-color);
+}
+
+/*============ HOME SECTION END ============*/
+
+/* ============ HOME RESPONSIVIDADE ============ */
+@media (max-width: 950px) {
+  #home .home-box {
+    height: 70vh;
+    flex-direction: column-reverse;
+  }
+
+  #home .home-box-txt {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home .home-box-txt span {
+    font-size: var(--fm1-font-size);
+  }
+
+  #home .home-box-txt p {
+    font-size: var(--fm1-font-size);
+  }
+
+  #home .home-btn {
+    padding: 10px 0px;
+    margin: 20px 0;
+  }
+
+  #home .home-box-thumbs ion-icon {
+    font-size: 27px;
+    margin-top: 10px;
+  }
+
+  #home .home-box-img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  #home .home-scroll-down ion-icon {
+    font-size: 1.3rem;
+  }
+
+  #home .home-scroll-down a {
+    font-size: var(--fm3-font-size);
+    font-weight: 500;
+    padding: 5px;
+  }
+
+  #typewriter {
+    font-size: var(--h3-font-size);
+    margin: 10px 0px;
+  }
+}
