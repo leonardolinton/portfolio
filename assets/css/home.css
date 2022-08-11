@@ -202,6 +202,10 @@
     width: 100%;
     height: 30vh;
   }
+  
+  #home .home-scroll-down{
+    margin-bottom: 35px;
+  }
 
   #home .home-scroll-down ion-icon {
     font-size: 1.3rem;
