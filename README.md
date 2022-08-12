@@ -4,7 +4,7 @@
 
 <h2>Seções</h2>
 
-A página posui 5 seções:
+A página possui 5 seções:
 
 - **Home:** Apresentação breve sobre mim;
 - **Sobre:** Descrição dizendo um pouco sobre mim;
