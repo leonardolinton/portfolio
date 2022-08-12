@@ -1,17 +1,18 @@
-# Portfólio – Leonardo Linton
-[VEJA O PROJETO](https://leonardolinton.github.io/portfolio/)
+<h1 align="center"><a href="https://leonardolinton.github.io/portfolio/">Portfólio – Leonardo Linton</a></h1>
 
-## Seções
+![preview!](/assets/img/preview.jpg)
 
-A página é composta por cinco seções:
+<h2>Seções</h2>
+
+A página posui 5 seções:
 
 - **Home:** Apresentação breve sobre mim;
 - **Sobre:** Descrição dizendo um pouco sobre mim;
 - **Habilidades:** Cards com as tecnologias que tenho conhecimento atualmente;
 - **Projetos:** Apresenta projetos que desenvolvi com links para o Github;
-- **Contato:** Dados para me contatar e um formulário para me enviar um email.
+- **Contato:** Dados para me contatar e formulário para me enviar email.
 ---
-## Imagens utilizadas
+<h2>Imagens utilizadas</h2>
 
 O desenvolvimento deste site utilizei imagens dos seguintes locais:
 
@@ -19,7 +20,7 @@ O desenvolvimento deste site utilizei imagens dos seguintes locais:
 - **SVG Images:** https://storyset.com/
 - **Logo Images:** https://www.flaticon.com/
 ---
-## Tecnologias utilizadas
+<h2>Tecnologias utilizadas</h2>
 
 O desenvolvimento deste site foi realizado com as seguintes tecnologias:
 
