@@ -22,7 +22,7 @@ O desenvolvimento deste site utilizei imagens dos seguintes locais:
 ---
 <h2>Tecnologias utilizadas</h2>
 
-O desenvolvimento deste site foi realizado com as seguintes tecnologias:
+O desenvolvimento desta página foi realizado com as seguintes tecnologias:
 
 - **HTML;**
 - **CSS**
