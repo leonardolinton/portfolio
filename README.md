@@ -24,8 +24,8 @@ O desenvolvimento deste site utilizei imagens dos seguintes locais:
 
 O desenvolvimento desta página foi realizado com as seguintes tecnologias:
 
-- **HTML;**
+- **HTML**
 - **CSS**
-- **JavaScript;**
-- **AOS – Animated On Scroll Library;**
-- **Swiper JS – Slider.**
+- **JavaScript**
+- **AOS – Animated On Scroll Library**
+- **Swiper JS – Slider**
