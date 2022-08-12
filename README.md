@@ -10,7 +10,7 @@ A página possui 5 seções:
 - **Sobre:** Descrição dizendo um pouco sobre mim;
 - **Habilidades:** Cards com as tecnologias que tenho conhecimento atualmente;
 - **Projetos:** Apresenta projetos que desenvolvi com links para o Github;
-- **Contato:** Dados para me contatar e formulário para me enviar email.
+- **Contato:** Dados para contato e formulário para me enviar email.
 ---
 <h2>Imagens utilizadas</h2>
 
