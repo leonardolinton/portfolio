@@ -44,33 +44,24 @@
 }
 
 #projetos .card {
+  position: relative;
   margin: auto 0;
   height: 50vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: var(--tertiary-color);
-
   border: solid 1px transparent;
   filter: brightness(0.7);
   transition: 1s;
+
+  overflow: hidden;
 }
 
 #projetos .card:hover {
   border: solid 1px red;
   filter: brightness(1);
-}
-
-#projetos .card-01 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  color: #adff2f;
-}
-
-#projetos .card-01:hover {
-  border: solid 1px #adff2f;
 }
 
 #projetos .card:hover img {
@@ -95,7 +86,6 @@
 }
 
 #projetos .card-txt {
-  background-color: #adff2f;
   color: #353535;
   border-top: solid 1.5px #353535;
   width: 100%;
@@ -106,31 +96,48 @@
   font-size: var(--f1-font-size);
 }
 
+#projetos .card-txt p {
+  font-weight: var(--font-weight-600);
+}
+
 #projetos .card-txt ion-icon {
   font-size: 1.5rem;
   margin-top: 5px;
 }
 
-.card-btns a {
+#projetos .card-btns a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  margin: 5px;
+  margin: 5px auto;
+  width: 70%;
 }
 
-.card-btns a button {
+#projetos .card-btns a button {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
   padding: 5px;
   margin: 5px 0;
-  width: 70%;
-  color: #adff2f;
   background-color: #353535;
   cursor: pointer;
 }
+
+/*============ CARD-01 START============*/
+#projetos .card-01:hover {
+  border: solid 1px #adff2f;
+}
+
+#projetos .card-01 a button {
+  color: #adff2f;
+}
+
+#projetos .card-01 .card-txt {
+  background-color: #adff2f;
+}
+/*============ CARD-01 END ============*/
 
 #projetos .swiper-navBtn {
   color: var(--primary-color);
