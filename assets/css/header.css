@@ -101,9 +101,10 @@
 
   #menu {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
     position: absolute;
     width: 100%;
     top: 10vh;
@@ -117,7 +118,7 @@
   }
 
   #nav.active #menu {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     visibility: visible;
     overflow-y: auto;
