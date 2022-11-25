@@ -125,15 +125,15 @@
 
 /*============ CARD-01 START============*/
 #projetos .card-01:hover {
-  border: solid 1px #adff2f;
+  border: solid 1px #26ff00;
 }
 
 #projetos .card-01 a button {
-  color: #adff2f;
+  color: #26ff00;
 }
 
 #projetos .card-01 .card-txt {
-  background-color: #adff2f;
+  background-color: #26ff00;
 }
 /*============ CARD-01 END ============*/
 
