@@ -85,8 +85,8 @@
 }
 
 #projetos .card-txt {
-  color: #353535;
-  border-top: solid 1.5px #353535;
+  color: var(--font-color);
+  border-top: solid 1.5px var(--font-color);
   width: 100%;
   padding: 10px;
   text-align: center;
@@ -119,8 +119,15 @@
   justify-content: center;
   gap: 5px;
   padding: 5px;
-  background-color: #353535;
+  margin: 5px 0;
+  background-color: var(--font-color);
   cursor: pointer;
+  transition: ease-in-out 0.3s;
+  opacity: 1;
+}
+
+#projetos .card-btns a button:hover {
+  opacity: 0.9;
 }
 
 /*============ CARD-01 START============*/
