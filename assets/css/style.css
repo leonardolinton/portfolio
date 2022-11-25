@@ -9,7 +9,7 @@
   --primary-color: #d71e47;
   --secondary-color: #f1f1f1;
   --tertiary-color: #3b3050;
-
+  --font-color: #1d1d1d;
   --max-width: 90%;
 
   /*========== FONT SIZE ==========*/
@@ -39,6 +39,7 @@
   --primary-color: #d71e47;
   --secondary-color: #353535;
   --tertiary-color: #938fb1;
+  --font-color: #1d1d1d;
 }
 
 /*============ VARIAVEIS CSS ============*/
