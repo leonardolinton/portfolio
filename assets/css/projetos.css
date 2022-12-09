@@ -59,7 +59,7 @@
 }
 
 #projetos .card:hover {
-  border: solid 1px red;
+  border: solid 1px var(--primary-color);
   filter: brightness(1);
 }
 
