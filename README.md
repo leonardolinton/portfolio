@@ -1,6 +1,6 @@
 <h1 align="center">💻<a href="https://leonardolinton.github.io/portfolio/">Portfólio – Leonardo Linton</a>💻</h1>
 
-![preview!](/assets/img/preview.jpg)
+![preview!](https://user-images.githubusercontent.com/109364804/206754080-bb1db592-19bb-4fe5-a67c-697a6fddb84b.png)
 
 <h2>Seções</h2>
 
