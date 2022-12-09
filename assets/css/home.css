@@ -62,7 +62,6 @@
   display: inline-block;
   text-decoration: none;
   transform: skew(-25deg);
-
   border: 2px solid var(--primary-color);
   position: relative;
   overflow: hidden;
@@ -102,10 +101,8 @@
 #home .home-box-img {
   width: 50%;
   height: 100%;
-
   display: flex;
   align-items: center;
-
   background: url(../img/coding-animate.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -202,8 +199,8 @@
     width: 100%;
     height: 30vh;
   }
-  
-  #home .home-scroll-down{
+
+  #home .home-scroll-down {
     margin-bottom: 35px;
   }
 
@@ -221,7 +218,6 @@
     font-size: var(--h3-font-size);
     margin: 10px 0px;
   }
-  
 }
 
 @media (max-width: 320px) {
@@ -229,9 +225,8 @@
     font-size: 27px;
     margin-top: 10px;
   }
-  
-  #home .home-scroll-down{
+
+  #home .home-scroll-down {
     margin-bottom: 15px;
   }
-  
 }

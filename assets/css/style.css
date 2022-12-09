@@ -5,10 +5,10 @@
 
 /*============ CORES TEMA DARK ============*/
 :root {
-  --bg-color: #1c1726;
+  --bg-color: #070f1a;
   --primary-color: #d71e47;
-  --secondary-color: #f1f1f1;
-  --tertiary-color: #3b3050;
+  --secondary-color: #fff;
+  --tertiary-color: #0f3357;
   --font-color: #1d1d1d;
   --max-width: 90%;
 
@@ -35,10 +35,10 @@
 
 /*============ CORES TEMA LIGHT ============*/
 :root .light-theme {
-  --bg-color: #cfcbeb;
+  --bg-color: #c7e1fc;
   --primary-color: #d71e47;
-  --secondary-color: #353535;
-  --tertiary-color: #938fb1;
+  --secondary-color: #000000;
+  --tertiary-color: #6da4db;
   --font-color: #1d1d1d;
 }
 

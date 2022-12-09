@@ -14,7 +14,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     position: relative;
 }
 
@@ -25,6 +24,7 @@
 #footer .footer_title h3 {
     text-transform: uppercase;
     font-size: var(--f2-font-size);
+    font-weight: var(--font-weight-900);
 }
 
 #footer .footer_links {
@@ -37,6 +37,7 @@
 #footer .footer_links li a {
     font-size: var(--f1-font-size);
     color: var(--secondary-color);
+    font-weight: var(--font-weight-900);
 }
 
 #footer .footer_socials {

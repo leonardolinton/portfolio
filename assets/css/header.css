@@ -2,15 +2,13 @@
 #header {
   width: 100%;
   height: 10vh;
-
   position: fixed;
   display: flex;
   align-items: center;
-
   background: var(--bg-color);
-  border-bottom: solid 1px var(--primary-color);
-
+  border-bottom: solid 2px var(--primary-color);
   z-index: 1000;
+  box-shadow: #d71e47;
 }
 
 #nav {
@@ -51,8 +49,8 @@
   content: "";
   display: block;
   width: 0.1%;
-  height: 1px;
-  transition: 0.5s ease-in-out;
+  height: 1.5px;
+  transition: 0.3s ease-in-out;
 }
 
 #menu li:hover::after {
@@ -60,6 +58,7 @@
   display: block;
   width: 100%;
   background-color: var(--primary-color);
+  transform: scale(1.5);
 }
 
 #menu a {
@@ -69,12 +68,12 @@
   font-size: var(--font-weight-500);
   font-weight: var(--font-weight-700);
   text-decoration: none;
-
-  transition: 0.5s;
+  transition: 0.3s ease-in-out;
 }
 
 #menu a:hover {
   color: var(--primary-color);
+  transform: scale(1.5);
 }
 
 #icon {
