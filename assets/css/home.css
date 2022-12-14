@@ -39,12 +39,12 @@
 #home .home-box-txt span {
   line-height: 100%;
   font-size: var(--f3-font-size);
-  font-weight: var(--font-weight-700);
+  font-weight: var(--font-weight-400);
   color: var(--secondary-color);
 }
 
 #home .home-box-txt p {
-  line-height: 100%;
+  line-height: 85%;
   font-size: var(--f3-font-size);
   font-weight: var(--font-weight-700);
   color: var(--secondary-color);
