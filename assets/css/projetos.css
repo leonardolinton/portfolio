@@ -130,19 +130,20 @@
   opacity: 0.9;
 }
 
-/*============ CARD-01 START============*/
-#projetos .card-01:hover {
-  border: solid 1px #26ff00;
+/*============ CARD ACTIVE START ============*/
+#projetos .card-active:hover {
+  border: solid 1px var(--primary-color);
 }
 
-#projetos .card-01 a button {
-  color: #26ff00;
+#projetos .card-active a button {
+  color: var(--primary-color);
+  font-weight: var(--font-weight-700);
 }
 
-#projetos .card-01 .card-txt {
-  background-color: #26ff00;
+#projetos .card-active .card-txt {
+  background-color: var(--primary-color);
+  font-weight: var(--font-weight-900);
 }
-/*============ CARD-01 END ============*/
 
 #projetos .swiper-navBtn {
   color: var(--primary-color);
@@ -176,6 +177,9 @@
 #projetos .swiper-pagination-bullet-active {
   background-color: var(--primary-color);
 }
+
+/*============ CARD ACTIVE END ============*/
+
 /*============ PROJETOS SECTION END ============*/
 
 /*============ PROJETOS RESPONSIVIDADE ============*/
