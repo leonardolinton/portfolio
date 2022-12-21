@@ -24,18 +24,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  height: 7vh;
-  width: calc(7vh);
-  background-color: var(--primary-color);
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  height: 8vh;
+  width: 8vh;
   order: 1;
 }
 
-#logo span {
-  font-size: 3.5vh;
-  font-weight: 900;
-  color: var(--bg-color);
+#logo img {
+  height: 100%;
+  width: 100%;
 }
 
 #menu {
@@ -59,6 +55,7 @@
   width: 100%;
   background-color: var(--primary-color);
   transform: scale(1.5);
+  border-radius: 5px;
 }
 
 #menu a {

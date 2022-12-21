@@ -72,6 +72,10 @@
 /*============ FOOTER RESPONSIVIDADE ============*/
 
 @media screen and (max-width: 950px) {
+    #footer {
+        margin-top: 10vh;
+    }
+
     #footer .footer_box {
         flex-direction: column;
         justify-content: center;
@@ -86,6 +90,10 @@
 
     #footer .footer_links {
         gap: 15px;
+    }
+
+    #footer .footer_links li {
+        padding: 10px 0;
     }
 
     #footer .footer_links li a {

@@ -2,7 +2,6 @@
 
 #habilidades {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,18 +25,15 @@
 
 #habilidades .habilidades-box {
   width: 100%;
-  height: 70vh;
-
+  min-height: 70vh;
   display: flex;
   align-items: center;
-
   margin-bottom: 35px;
 }
 
 #habilidades .habilidades-box-img {
-  width: 50%;
-  height: 100%;
-
+  width: 30%;
+  height: 30vw;
   background-image: url(../img/hand-coding-animate.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -45,11 +41,11 @@
 }
 
 #habilidades .habilidades-box-cards {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #habilidades .habilidades-box-card {
@@ -109,6 +105,7 @@
   #habilidades .habilidades-box-cards {
     max-height: 70%;
     width: 100%;
+    justify-content: center;
   }
 
   #habilidades .habilidades-box-img {

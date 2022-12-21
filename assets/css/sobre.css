@@ -117,7 +117,7 @@
 
     #sobre .sobre-box-txt a {
         width: 250px;
-        padding: 5px;
+        padding: 10px;
         font-size: var(--fm2-font-size);
         margin-top: 5px;
     }

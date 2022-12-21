@@ -91,17 +91,29 @@
   padding: 10px;
   text-align: center;
   transition: 0.5s;
-  transform: translateY(300px);
+  transform: translateY(500px);
   font-size: var(--f1-font-size);
 }
 
 #projetos .card-txt p {
-  font-weight: var(--font-weight-600);
+  font-weight: 900;
 }
 
 #projetos .card-txt ion-icon {
   font-size: 1.5rem;
   margin-top: 5px;
+}
+
+#projetos .card-txt h3 {
+  font-size: var(--fm1-font-size);
+  font-weight: 900;
+}
+
+#projetos .card-txt h4 {
+  font-size: var(--fm2-font-size);
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 15px;
 }
 
 #projetos .card-btns a {
@@ -120,14 +132,14 @@
   gap: 5px;
   padding: 5px;
   margin: 2.5px 0;
+  border-radius: 5px;
   background-color: var(--font-color);
   cursor: pointer;
   transition: ease-in-out 0.3s;
-  opacity: 1;
 }
 
 #projetos .card-btns a button:hover {
-  opacity: 0.9;
+  transform: scale(1.1);
 }
 
 /*============ CARD ACTIVE START ============*/
@@ -136,12 +148,11 @@
 }
 
 #projetos .card-active a button {
-  color: var(--primary-color);
   font-weight: var(--font-weight-700);
 }
 
 #projetos .card-active .card-txt {
-  background-color: var(--primary-color);
+  /*background-color: var(--primary-color);*/
   font-weight: var(--font-weight-900);
 }
 
@@ -179,6 +190,18 @@
 }
 
 /*============ CARD ACTIVE END ============*/
+
+/*============ CARD 01 STYLE ============*/
+
+#projetos .card-active .card01 {
+  background-color: orangered;
+}
+
+#projetos .card-active .card01 a button {
+  color: orangered;
+}
+
+/*============ ============*/
 
 /*============ PROJETOS SECTION END ============*/
 
