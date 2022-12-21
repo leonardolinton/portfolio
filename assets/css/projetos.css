@@ -143,16 +143,12 @@
 }
 
 /*============ CARD ACTIVE START ============*/
-#projetos .card-active:hover {
-  border: solid 1px var(--primary-color);
-}
 
 #projetos .card-active a button {
   font-weight: var(--font-weight-700);
 }
 
 #projetos .card-active .card-txt {
-  /*background-color: var(--primary-color);*/
   font-weight: var(--font-weight-900);
 }
 
@@ -192,13 +188,20 @@
 /*============ CARD ACTIVE END ============*/
 
 /*============ CARD 01 STYLE ============*/
-
-#projetos .card-active .card01 {
-  background-color: orangered;
+#projetos .card01 {
+  border: solid 1px transparent;
 }
 
-#projetos .card-active .card01 a button {
-  color: orangered;
+#projetos .card01:hover {
+  border: solid 1px #ff4500;
+}
+
+#projetos .card01 .card-txt {
+  background-color: #ff4500;
+}
+
+#projetos .card01 a button {
+  color: #ff4500;
 }
 
 /*============ ============*/
