@@ -54,7 +54,7 @@
   border: solid 1px transparent;
   filter: brightness(0.7);
   transition: 1s;
-
+  border-radius: 5px;
   overflow: hidden;
 }
 

@@ -70,6 +70,7 @@
   transition: 0.3s;
   z-index: 1;
   color: var(--primary-color);
+  border-radius: 5px;
 }
 
 #home .home-btn::before {

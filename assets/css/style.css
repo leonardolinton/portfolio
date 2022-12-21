@@ -5,10 +5,10 @@
 
 /*============ CORES TEMA DARK ============*/
 :root {
-  --bg-color: #070f1a;
+  --bg-color: #010101;
   --primary-color: #d71e47;
   --secondary-color: #fff;
-  --tertiary-color: #0f3357;
+  --tertiary-color: #353535;
   --font-color: #1d1d1d;
   --max-width: 90%;
 
@@ -35,10 +35,10 @@
 
 /*============ CORES TEMA LIGHT ============*/
 :root .light-theme {
-  --bg-color: #c7e1fc;
+  --bg-color: #d4d4d4;
   --primary-color: #d71e47;
   --secondary-color: #000000;
-  --tertiary-color: #6da4db;
+  --tertiary-color: #888888;
   --font-color: #1d1d1d;
 }
 
@@ -80,7 +80,8 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
-  border: solid 2px var(--bg-color);
+  border: solid 1px var(--bg-color);
+  border-radius: 5px;
 }
 
 main {

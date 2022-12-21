@@ -76,12 +76,17 @@
 #contato .contact-form textarea {
   border: none;
   color: var(--primary-color);
-  background: var(--secondary-color);
+  background: var(--tertiary-color);
   font-size: var(--f1-font-size);
   margin-bottom: 20px;
   padding: 20px;
   border: none;
   outline: none;
+  border-radius: 5px;
+}
+
+#contato .contact-form ::placeholder {
+  color: var(--secondary-color);
 }
 
 #contato .contact-form input:focus,
@@ -119,6 +124,7 @@
   gap: 5px;
 
   border: solid 2px transparent;
+  border-radius: 5px;
   padding: 15px;
 
   cursor: pointer;
